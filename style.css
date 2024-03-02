@@ -1,0 +1,87 @@
+:root {
+    --background: #232830;
+    --primary: #FFFFFF;
+    --secondary: #FF7575;
+    --tertiary: #909090;
+    --quaternary: #4D4D4D;
+}
+
+body {
+    background-color: var(--background);
+    font-family: "Poppins", sans-serif;
+    color: var(--primary);
+}
+
+.container {
+    width: 80%;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.primary-header {
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: var(--primary);
+}
+
+li {
+    display: inline;
+    list-style-type: none;
+    margin: 0 1rem;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 5rem;
+}
+
+.hero-img {
+    margin-bottom: 2rem;
+}
+
+h1 {
+    font-family: "Recursive";
+    font-style: italic;
+    font-size: 4.5rem;
+    color: var(--secondary);
+    margin: 0;
+}
+
+.hero p {
+    font-size: 1.8rem;
+}
+
+.divider {
+    border: 1px solid var(--quaternary);
+    width: 100%;
+}
+
+.secondary-navbar {
+    font-family: "Recursive";
+    font-style: italic;
+    font-size: 1.7rem; 
+    display: flex;
+}
+
+.secondary-navbar a {
+    color: var(--tertiary);
+}
+
+.secondary-navbar img {
+    margin-right: 1rem;
+}
+
+.secondary-navbar ul, li {
+    padding: 0;
+}
+
